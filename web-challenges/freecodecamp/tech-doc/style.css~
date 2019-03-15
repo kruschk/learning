@@ -1,0 +1,21 @@
+@media (min-width: 500px) {
+	.left {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 250px;
+		display: flex;
+		flex-direction: column;
+	}
+	.right {
+		position: absolute;
+		left: 250px;
+		display: flex;
+		flex-direction: column;
+	}
+	.nav-link {
+		display: flex;
+		flex-direction: column;
+		margin: 10px;
+	}
+}

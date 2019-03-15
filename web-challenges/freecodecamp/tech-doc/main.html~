@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Paper User Documentation</title>
+		<link rel="stylesheet" href="./style.css"> 
+	</head>
+	<body>
+		<main id="main-doc">
+		<div class="left">
+			<nav id="navbar">
+				<header>
+					<h1>Paper User Documentation</h1>
+				</header>
+				<a class="nav-link" href=#Folding_in_half>Folding in half</a>
+				<a class="nav-link" href=#Writing>Writing</a>
+				<a class="nav-link" href=#Printing>Printing</a>
+				<a class="nav-link" href=#Airplaning>Airplaning</a>
+				<a class="nav-link" href=#Cutting>Cutting</a>
+			</nav>
+		</div>
+		<div class="right">
+			<section id="Folding_in_half" class="main-section">
+				<header>
+					<h2>Folding in half</h2>
+				</header>
+				<p>Folding paper in half is simple. The following algorithm may be used:</p>
+				<ol>
+					<li>Place the paper onto a flat surface, such as a table or counter.</li>
+					<li>Firmly grasp two corners of the page which are on the same edge of the page (i.e. not diagonal corners).</li>
+					<li>Gently these two corners to the opposing corners on the other side of the page.</li>
+					<li>Ensure each corner is matched as closely as possible with the opposing corner, and then carefully flatten the page such that a crease forms halfway.</li>
+					<li>Slide a fingernail against the fold to make the crease as crisp as possible.</li>
+				</ol>
+				<p>Congratulations! The page is now folded in half.</p>
+			</section>
+			<section id="Writing" class="main-section">
+				<header>
+					<h2>Writing</h2>
+				</header>
+				<p>One can write on a page using a pen or a pencil. There is no limit to the number of things which may be written; here are some example passages:</p>
+				<code>Example passages and code are included in code blocks like this one.</code><br>
+				<code>The quick brown fox jumped over the lazy dog.</code><br>
+				<code>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</code><br>
+				<code>
+					#include &lt;stdio.h&gt;<br>
+					int main(void) {<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\n");<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;return 0;<br>
+					}
+				</code>
+				<p>It is possible to make many wonderful things with only pen and paper. One could write a book, or formulate a mathematical proof! All that is required is a little creativity.</p>
+			</section>
+			<section id="Printing" class="main-section">
+				<header>
+					<h2>Printing</h2>
+				</header>
+				<p>Just like a person, a computer can use a special device, called a printer, to put ink to paper. Here are some of the steps:</p>
+				<ol>
+					<li>Put paper into the printer.</li>
+					<li>Turn the printer and computer on.</li>
+					<li>Print a document using software on the computer.</li>
+				</ol>
+				<p>Additionally,if you were to print the above C code (repeated below) using a printer, it would look much neater!</p>
+				<code>
+					#include &lt;stdio.h&gt;<br>
+					int main(void) {<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\n");<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;return 0;<br>
+					}
+				</code>
+				<p>A computer and a printer can write text or images far more quickly than a person can; the difference is appreciable for any document longer than a sticky note.</p>
+			</section>
+			<section id="Airplaning" class="main-section">
+				<header>
+					<h2>Airplaning</h2>
+				</header>
+				<p>With the help of some elaborate folding techniques (see <a href=#Folding_in_half>Folding</a> above), a sheet of paper may be transformed into an airplane! To achieve this, simply:
+				<ol>
+					<li>Get a piece of paper.</li>
+					<li>Fold it into a paper airplane.</li>
+				</ol>
+				<p>Armed with this knowledge, you'll be making delightful children's toys in no time.</p>
+			</section>
+			<section id="Cutting" class="main-section">
+				<header>
+					<h2>Cutting</h2>
+				</header>
+				<p>Another useful technique for altering the shape of a piece of paper is cutting. For this task, scissors are recommended, although a knife may also be used.</p>
+				<ol>
+					<li>Grab some paper and a pair of scissors.</li>
+					<li>Place the sheet of paper between the two blades of the scissors.</li>
+					<li>Squeeze the scissors handles together to shear the paper, cutting it.</li>
+				</ol>
+				<p>A piece of paper that has been cut has several uses, such as being two smaller pieces of paper.</p>
+			</section>
+		</div>
+		</main>
+		<footer>
+		</footer>
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	</body>
+</html>

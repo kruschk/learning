@@ -1,0 +1,18 @@
+Stand at the pole with the plaque START
+go 480 feet by azimuth 338
+go 220 feet by azimuth 337
+go 60 feet by azimuth 73
+go 240 feet by azimuth 15
+go 120 feet by azimuth 280
+go 200 feet by azimuth 28
+go 80 feet by azimuth 288
+go 260 feet by azimuth 78
+go 280 feet by azimuth 302
+go 340 feet by azimuth 296
+go 160 feet by azimuth 38
+go 20 feet by azimuth 320
+go 260 feet by azimuth 350
+go 20 feet by azimuth 37
+go 60 feet by azimuth 285
+go 240 feet by azimuth 26
+Dig here!

@@ -1,0 +1,12 @@
+:root {
+	font-family: monospace;
+	background: black;
+	color: white;
+}
+a:visited {
+	color: orange;
+}
+.box {
+	margin: 5px;
+}
+

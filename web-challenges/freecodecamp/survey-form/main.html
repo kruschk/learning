@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Dinosaur Survey</title>
+		<link rel="stylesheet" href="./style.css"> 
+	</head>
+	<body>
+		<header>
+		</header>
+		<main id="main">
+		<h1 id="title">Dinosaur Survey</h1>
+		<p id="description">Welcome to the dinosaur survey! This survey will definitively determine which ferocious beast was the greatest carnivore, which placid critter was the best herbivore, and which was the optimal time period to be a dinosaur in general. Please fill out the form below to help make history with these momentous decisions.</p>
+		<form id="survey-form">
+			<div class=box>
+				<label id="name-label" for="name">Name:</label>
+				<input id="name" type="text" placeholder="John Doe" required><br>
+			</div>
+			<div class=box>
+				<label id="email-label" for="email">email:</label>
+				<input id="email" type="email" placeholder="john.doe@example.com" required><br>
+			</div>
+			<div class=box>
+				<label id="number-label" for="number">Age:</label>
+				<input id="number" type="number" min="0" max="120" placeholder="18" required><br>
+			</div>
+			<div class=box>
+				<label for="dropdown">Which carnivore is the coolest?</label>
+				<select id="dropdown">
+					<option value="plesiosaur">Plesiosaur</option>
+					<option value="t-rex">Tyrannosaurus Rex</option>
+					<option value="velociraptor">Velociraptor</option>
+				</select>
+			</div>
+			<fieldset class=box>
+				<legend>Which herbivore is the coolest?</legend>
+				<label for="brontosaurus">
+					<input id="brontosaurus" type="radio" name="herbivores" value="brontosaurus" checked>Brontosaurus
+				</label>
+				<br>
+				<label for="stegosaurus">
+					<input id="stegosaurus" type="radio" name="herbivores" value="stegosaurus">Stegosaurus
+				</label>
+				<br>
+				<label for="triceratops">
+					<input id="triceratops" type="radio" name="herbivores" value="triceratops">Triceratops
+				</label>
+			</fieldset>
+			<fieldset class=box>
+				<legend>During which time periods did the greatest dinosaurs roam the earth?</legend>
+				<label for="mesozoic">
+					<input id="mesozoic" type="checkbox" name="time-period" value="mesozoic" checked>Mesozoic
+				</label>
+				<br>
+				<label for="triassic">
+					<input id="triassic" type="checkbox" name="time-period" value="triassic">Triassic
+				</label>
+				<br>
+				<label for="jurassic">
+					<input id="jurassic" type="checkbox" name="time-period" value="jurassic">Jurassic
+				</label>
+				<br>
+				<label for="cretaceous">
+					<input id="cretaceous" type="checkbox" name="time-period" value="cretaceous">Cretaceous
+				</label>
+			</fieldset>
+			<textarea class=box rows="4" cols="50" placeholder="Please enter any additional comments here."></textarea>
+			<br>
+			<button class=box id="submit" type="submit">Submit</button>
+		</form>
+		</main>
+		<footer>
+		</footer>
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	</body>
+</html>

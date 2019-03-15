@@ -1,0 +1,11 @@
+This is a test /*
+there's a comment on the above line */
+what about nested comments /* /* */ */
+Here's a comment with a quote in it: /* test  " this is a quote " weird */
+Here's a quote with a comment in it: " test /* weird */ "
+The escaped double quote should be ignored: \" /* comment */ " /* test */ "
+Another with a nested comment /* this /* is */ a nested comment */;
+Note: these run off the end, pick one and put it at the end, then close the
+other
+Here's one where a quote runs off the end: " this is a quote 
+Here's one where a comment runs off the end: /* test

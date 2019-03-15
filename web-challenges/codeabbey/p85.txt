@@ -1,0 +1,25 @@
+24 201
+Betelgeuse 771 -736
+Vega -394 51
+Procyon 828 -921
+Albireo -862 -773
+Pherkad 535 489
+Altair 146 683
+Electra 342 -730
+Mizar -732 -552
+Zosma 418 -174
+Media 524 98
+Polaris 90 435
+Kochab 648 -756
+Bellatrix 422 469
+Aldebaran 597 792
+Heka 447 -253
+Capella -92 218
+Nembus 11 514
+Deneb -731 -161
+Unuk 594 -593
+Alcor 67 128
+Castor 897 -788
+Gemma -190 238
+Yildun -517 79
+Algol 686 902

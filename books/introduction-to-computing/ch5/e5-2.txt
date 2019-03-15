@@ -1,0 +1,6 @@
+; e5-2
+a. The built-in > procedure is of type Number x Number -> Boolean.
+b. (define inc (lambda (n) (+ n 1))) or (define square (lambda (x) (* x x)))
+c. fcompose will perform this transformation:
+    (define fcompose (lambda (f g) (lambda (x) (g (f x)))))
+d. (lambda (a) (lambda (b) (lambda (c) (+ a b c))))

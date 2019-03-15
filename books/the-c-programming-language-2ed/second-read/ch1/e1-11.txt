@@ -1,0 +1,6 @@
+The word count program may be tested by inputting passages that are long
+enough to have a large variety of characters, but short enough to be counted
+manually.
+
+A null input would also be good for testing, as would an extremely long
+file.

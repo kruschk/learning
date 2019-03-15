@@ -1,0 +1,5 @@
+#!/bin/bc
+
+/* A very simple bc script */
+
+2 + 2

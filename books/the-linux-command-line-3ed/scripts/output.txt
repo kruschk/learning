@@ -1,0 +1,51 @@
+total 160
+-rwxr-xr-x 1 jonah jonah  255 Jul 18 17:55 arith-loop
+-rwxr-xr-x 1 jonah jonah  192 Jul 18 19:24 array-sort
+-rwxr-xr-x 1 jonah jonah  566 Jul 17 20:30 case-menu
+-rwxr-xr-x 1 jonah jonah  455 Jul 16 09:56 file_expr
+-rwxr-xr-x 1 jonah jonah  484 Jul 17 21:06 file_info
+-rw-r--r-- 1 jonah jonah   48 Jul 18 18:31 foo.bc
+-rw-r--r-- 1 jonah jonah   90 Jul 15 19:37 foo.html
+-rwxr-xr-x 1 jonah jonah   88 Jul 15 19:17 hello_world
+-rwxr-xr-x 1 jonah jonah  584 Jul 18 18:55 hours
+-rwxr-xr-x 1 jonah jonah  558 Jul 18 18:39 loan-calc
+-rwxr-xr-x 1 jonah jonah  327 Jul 17 21:58 longest-word
+-rwxr-xr-x 1 jonah jonah  309 Jul 17 22:03 longest-word2
+-rwxr-xr-x 1 jonah jonah  299 Jul 18 17:18 longest-word3
+-rwxr-xr-x 1 jonah jonah  221 Jul 18 17:37 modulo
+-rwxr-xr-x 1 jonah jonah  215 Jul 18 17:44 modulo2
+-rw-r--r-- 1 jonah jonah    0 Jul 18 19:50 output.txt
+-rwxr-xr-x 1 jonah jonah  268 Jul 17 20:40 posit-param
+-rwxr-xr-x 1 jonah jonah  165 Jul 17 20:57 posit-param2
+-rwxr-xr-x 1 jonah jonah  372 Jul 17 21:17 posit-params3
+-rwxr-xr-x 1 jonah jonah  451 Jul 16 13:26 read-ifs
+-rwxr-xr-x 1 jonah jonah  457 Jul 16 13:12 read_integer
+-rwxr-xr-x 1 jonah jonah  699 Jul 16 13:50 read-menu
+-rwxr-xr-x 1 jonah jonah  217 Jul 16 13:19 read-secret
+-rwxr-xr-x 1 jonah jonah  933 Jul 16 13:36 read-validate
+-rwxr-xr-x 1 jonah jonah  110 Jul 17 22:08 simple_counter
+-rwxr-xr-x 1 jonah jonah 2332 Jul 17 22:13 sys_info_page
+-rw-r--r-- 1 jonah jonah 1103 Jul 17 22:14 sys_info_page.html
+-rwxr-xr-x 1 jonah jonah  359 Jul 16 10:09 test_integer
+-rwxr-xr-x 1 jonah jonah  396 Jul 16 10:23 test_integer2
+-rwxr-xr-x 1 jonah jonah  398 Jul 16 12:25 test_integer3
+-rwxr-xr-x 1 jonah jonah  399 Jul 16 13:10 test_integer4
+-rwxr-xr-x 1 jonah jonah  363 Jul 16 10:05 test_string
+-rwxr-xr-x 1 jonah jonah  173 Jul 16 21:57 trouble
+-rwxr-xr-x 1 jonah jonah  184 Jul 18 17:24 ul-declare
+-rwxr-xr-x 1 jonah jonah  155 Jul 18 17:29 ul-param
+-rwxr-xr-x 1 jonah jonah  157 Jul 16 21:14 until-count
+-rwxr-xr-x 1 jonah jonah  194 Jul 16 20:51 while-count
+-rwxr-xr-x 1 jonah jonah  810 Jul 16 21:01 while-menu
+-rwxr-xr-x 1 jonah jonah  881 Jul 16 21:11 while-menu2
+-rwxr-xr-x 1 jonah jonah  199 Jul 16 21:18 while-read
+-rwxr-xr-x 1 jonah jonah  223 Jul 16 21:20 while-read2
+Listing of foo.txt
+<html>
+	<head>
+		<title>Misspelled HTML file</title>
+	</head>
+	<body>
+		<p>The quick brown fox jumps over the lazy dog.</p>
+	</body>
+</html>

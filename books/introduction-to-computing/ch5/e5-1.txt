@@ -1,0 +1,7 @@
+; e5-1
+a. Number
+b. Number -> Boolean
+c. Boolean
+d. (Number -> (Number -> Boolean))
+e. Number -> Number:
+e. should be T -> T, where T is the type of the input, and it is conserved.

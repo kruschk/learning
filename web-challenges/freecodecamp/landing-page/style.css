@@ -1,0 +1,49 @@
+@media (min-height: 250px) {
+	:root {
+		background-color: black;
+		color: white;
+	}
+	a:visited {
+		color: orange;
+	}
+}
+.logo {
+	display: flex;
+	height: 100%;
+	width: auto;
+	margin: 10px;
+}
+.nav-link {
+	display: flex;
+	margin: 10px;
+}
+#main {
+	position: absolute;
+	top: 10%;
+}
+#header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	background-color: white;
+	height: 10%;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1;
+}
+#header-img {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	width: auto;
+}
+#nav-bar {
+	display: flex;
+}
+#title {
+	display: flex;
+	align-items: center;
+	color: black;
+}

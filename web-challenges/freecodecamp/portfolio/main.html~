@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Jonah Kruschke's Portfolio</title>
+		<link rel="stylesheet" href="./style.css"> 
+	</head>
+	<body>
+		<header>
+			<nav id="navbar">
+				<a class="nav-link" href=#welcome-section>Welcome</a>
+				<a class="nav-link" href=#projects>Projects</a>
+				<a class="nav-link" href=#other-work>Other work</a>
+			</nav>
+		</header>
+		<main>
+		<section id="welcome-section">
+			<h1>My name is Jonah Kruschke</h1>
+			<br>
+			<p>This is my portfolio</p>
+		</section>
+		<section id="projects">
+			<h1>Here are some of the web projects I've made:</h1>
+			<div class="tile-container">
+				<div class=project-tile>
+					<a href="https://codepen.io/kruschk/full/ejyqqz" target="_blank">Paper User Documentation</a>
+				</div>
+				<div class=project-tile>
+					<a href="https://codepen.io/kruschk/full/ZjvdOo" target="_blank">Roger's Pumpkin Emporium</a>
+				</div>
+				<div class=project-tile>
+					<a href="https://codepen.io/kruschk/full/MBrgwJ" target="_blank">Dinosaur Survey</a>
+				</div>
+				<div class=project-tile>
+					<a href="https://codepen.io/kruschk/full/GBOMXp" target="_blank">A Tribute to Brian Kernighan</a>
+				</div>
+			</div>
+		</section>
+		<section id="other-work">
+			<h1>Have a look at some other things I've worked on:</h1>
+			<div class="tile-container">
+				<div class=project-tile>
+					<a id="profile-link" href="https://www.freecodecamp.org/kruschk" target="_blank">freeCodeCamp</a>
+				</div>
+				<div class=project-tile>
+					<a href="https://github.com/kruschk" target="_blank">GitHub</a>
+				</div>
+			</div>
+		</section>
+		</main>
+		<footer>
+		</footer>
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	</body>
+</html>

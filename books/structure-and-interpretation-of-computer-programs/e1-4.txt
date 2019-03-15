@@ -1,0 +1,8 @@
+The predicate will evaluate (> b 0) first, then select the + or - operator.
+From there, the expression is easily applied as:
+(define (a-plus-abs-b a b)
+  (+ a b))
+or 
+(define (a-plus-abs-b a b)
+  (- a b))
+depending on the result of evaluating the (if (> b 0) + -) combination.
