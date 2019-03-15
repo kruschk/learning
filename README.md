@@ -1,2 +1,2 @@
 # learning
-A repository for learning programming languages. Contains many stand-alone programs, organized by language.
+A repository for learning computer science.
