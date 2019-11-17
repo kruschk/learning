@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Canvas</title>
+        <style>
+            body {
+                margin: 0;
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas class="myCanvas">
+            <p>TODO: add suitable fallback here.</p>
+        </canvas>
+        <script>
+            const canvas = document.querySelector('.myCanvas');
+            const width = canvas.width = window.innerWidth;
+            const height = canvas.height = window.innerHeight;
+            const ctx = canvas.getContext('2d');
+
+            function degToRad(degrees) {
+                return Math.PI*degrees/180.0;
+            }
+
+            // Draw background.
+            ctx.fillStyle = 'rgb(0, 0, 0)';
+            ctx.fillRect(0, 0, width, height);
+            // Draw triangle.
+            ctx.fillStyle = "rgb(255, 0, 0)";
+            ctx.beginPath();
+            ctx.moveTo(50, 50);
+            ctx.lineTo(150, 50);
+            const triHeight = 50*Math.tan(degToRad(60));
+            ctx.lineTo(100, 50 + triHeight);
+            ctx.lineTo(50, 50);
+            ctx.fill();
+            // Draw blue circle.
+            ctx.fillStyle = "rgb(0, 0, 255)";
+            ctx.beginPath();
+            ctx.arc(150, 106, 50, degToRad(0), degToRad(360));
+            ctx.fill();
+            // Draw yellow semicircle.
+            ctx.fillStyle = "yellow";
+            ctx.beginPath();
+            ctx.arc(200, 106, 50, degToRad(45), degToRad(-45));
+            ctx.lineTo(200, 106);
+            ctx.fill();
+        </script>
+    </body>
+</html>

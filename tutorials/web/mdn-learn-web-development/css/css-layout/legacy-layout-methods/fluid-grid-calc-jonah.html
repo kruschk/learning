@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Simple grid</title>
+        <style>
+* { box-sizing: border-box; }
+body {
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+.wrapper {
+    padding-right: 2.08333333%;
+}
+.row {
+    clear: both;
+}
+.col {
+    float: left;
+    margin-left: 2.08333333%;
+    width: 6.25%;
+    background: rgb(255,150,150);
+}
+/* Two column widths (120px) plus one gutter width (20px) */
+.col.span2 {width: calc(2*6.25% + 1*2.08333333%);}
+/* Three column widths (180px) plus two gutter widths (40px) */
+.col.span3 {width: calc(3*6.25% + 2*2.08333333%);}
+/* And so on... */
+.col.span4 {width: calc(4*6.25% + 3*2.08333333%);}
+.col.span5 {width: calc(5*6.25% + 4*2.08333333%);}
+.col.span6 {width: calc(6*6.25% + 5*2.08333333%);}
+.col.span7 {width: calc(7*6.25% + 6*2.08333333%);}
+.col.span8 {width: calc(8*6.25% + 7*2.08333333%);}
+.col.span9 {width: calc(9*6.25% + 8*2.08333333%);}
+.col.span10 {width: calc(10*6.25% + 9*2.08333333%);}
+.col.span11 {width: calc(11*6.25% + 10*2.08333333%);}
+.col.span12 {width: calc(12*6.25% + 11*2.08333333%);}
+.offset-by-one {margin-left: calc(6.25% + 2*2.08333333%);}
+.offset-by-two {margin-left: calc(2*6.25% + 3*2.08333333%);}
+        </style>    
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="row">
+                <div class="col">1</div>
+                <div class="col">2</div>
+                <div class="col">3</div>
+                <div class="col">4</div>
+                <div class="col">5</div>
+                <div class="col">6</div>
+                <div class="col">7</div>
+                <div class="col">8</div>
+                <div class="col">9</div>
+                <div class="col">10</div>
+                <div class="col">11</div>
+                <div class="col">12</div>
+            </div>
+            <div class="row">
+                <div class="col span1">13</div>
+                <div class="col span6">14</div>
+                <div class="col span3">15</div>
+                <div class="col span2">16</div>
+            </div>
+            <div class="row">
+                <div class="col span1">17</div>
+                <div class="col span6 offset-by-two">18</div>
+            </div>
+
+        </div>
+    </body>
+</html>

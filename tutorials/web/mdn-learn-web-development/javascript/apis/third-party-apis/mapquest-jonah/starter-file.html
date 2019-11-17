@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mapquest example</title>
+        <style>
+            #map {
+                width: 600px;
+                height: 600px;
+            }
+        </style>
+        <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+        <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+        <script>
+            "use strict";
+            // 1. The basic part of the example
+            window.addEventListener("load", function() {
+            //window.onload = function() {
+                L.mapquest.key = "Zciu0ib2bITqF5zCyP9itGwYeeK7LUMx";
+                // 'map' refers to a <div> element with the ID map
+                let map = L.mapquest.map("map", {
+                    center: [53.480759, -2.242631],
+                    layers: L.mapquest.tileLayer("dark"),
+                    zoom: 12
+                });
+                map.addControl(L.mapquest.control({position: "bottomright"}));
+                L.marker([53.480759, -2.242631], {
+                    icon: L.mapquest.icons.marker({
+                        primaryColor: "#22407F",
+                        secondaryColor: "#3B5998",
+                        shadow: true,
+                        size: "md",
+                        symbol: 'A'
+                    })
+                }).bindPopup("This is Manchester!")
+                    .addTo(map);
+            });
+        </script>
+    </head>
+    <body>
+        <h1>Simple Mapquest example</h1>
+        <div id="map"></div>
+    </body>
+</html>
