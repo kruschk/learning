@@ -1,5 +1,0 @@
-; e6-4
-; (xor A B) =def= (and (or A B) (nand A B)), where:
-	; (and A B) =def= (not (nand A B))
-	; (not A) = (nand A A)
-	; (or A B) = (nand (not A) (not B))
