@@ -1,7 +1,0 @@
-[package]
-name = "blog_idiomatic"
-version = "0.1.0"
-authors = ["jonah"]
-edition = "2018"
-
-[dependencies]

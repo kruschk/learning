@@ -1,2 +1,0 @@
-gcc -std=c89 -pedantic -Wall -Werror -Wextra -o simplegrep main.c getline2.c strindex.c
-gcc -std=c11 -pedantic -Wall -Werror -Wextra -o simplegrep2 main2.c strindex.c

@@ -1,7 +1,0 @@
-[package]
-name = "three_ms"
-version = "0.1.0"
-authors = ["Jonah Kruschke <jonah.kruschke@gmail.com>"]
-edition = "2018"
-
-[dependencies]

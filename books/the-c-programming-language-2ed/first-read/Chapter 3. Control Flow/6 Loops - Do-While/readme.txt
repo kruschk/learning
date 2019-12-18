@@ -1,1 +1,0 @@
-Do exercises 3-5 and 3-6.

@@ -1,1 +1,0 @@
-Can't figure out 3-1.c.

@@ -1,5 +1,0 @@
-Applicative order will not terminate because it tries to evaluate then apply
-(hence applicative) (p).
-Normal order will terminate because it doesn't try to evaluate (p).
-A good explanation from stackexchange:
-https://stackoverflow.com/questions/16036139/seek-for-some-explanation-on-sicp-exercise-1-5
