@@ -1,0 +1,1 @@
+mongodb+srv://kruschk:598274592e3d204b55058fc67b727cf754e9bb502e87d2dc5608873c2d9adc59@cluster0-t9oqs.azure.mongodb.net/test?retryWrites=true&w=majority
