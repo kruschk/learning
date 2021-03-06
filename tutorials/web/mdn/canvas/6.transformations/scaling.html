@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Scaling</title>
+        <style type="text/css">
+            canvas { border: 1px solid black; }
+        </style>
+    </head>
+    <body>
+        <canvas id="canvas" height="300" width="300">Canvas API support is required.</canvas>
+    </body>
+    <script type="application/javascript">
+        "use strict";
+
+        function draw() {
+            const canvas = document.getElementById("canvas");
+            if (canvas.getContext) {
+                const context = canvas.getContext("2d");
+
+                // draw a simple rectangle, but scale it.
+                context.save();
+                context.scale(10, 3);
+                context.fillRect(1, 10, 10, 10);
+                context.restore();
+
+                // mirror horizontally
+                context.scale(-1, 1);
+                context.font = '48px serif';
+                context.fillText('MDN', -135, 120);
+            }
+        }
+
+        window.addEventListener("load", draw);
+    </script>
+</html>

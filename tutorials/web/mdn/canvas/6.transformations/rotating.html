@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Rotating</title>
+        <style type="text/css">
+            canvas { border: 1px solid black; }
+        </style>
+    </head>
+    <body>
+        <canvas id="canvas" height="300" width="300">Canvas API support is required.</canvas>
+    </body>
+    <script type="application/javascript">
+        "use strict";
+
+        function draw() {
+            const canvas = document.getElementById("canvas");
+            if (canvas.getContext) {
+                const context = canvas.getContext("2d");
+
+                // left rectangles, rotate from canvas origin
+                context.save();
+                // blue rect
+                context.fillStyle = "#0095DD";
+                context.fillRect(30, 30, 100, 100);
+                context.rotate((Math.PI / 180) * 25);
+                // grey rect
+                context.fillStyle = "#4D4E53";
+                context.fillRect(30, 30, 100, 100);
+                context.restore();
+
+                // right rectangles, rotate from rectangle center
+                // draw blue rect
+                context.fillStyle = "#0095DD";
+                context.fillRect(150, 30, 100, 100);
+
+                context.translate(200, 80); // translate to rectangle center
+                // x = x + 0.5 * width
+                // y = y + 0.5 * height
+                context.rotate((Math.PI / 180) * 25); // rotate
+                context.translate(-200, -80); // translate back
+
+                // draw grey rect
+                context.fillStyle = "#4D4E53";
+                context.fillRect(150, 30, 100, 100);
+            }
+        }
+
+        window.addEventListener("load", draw);
+    </script>
+</html>

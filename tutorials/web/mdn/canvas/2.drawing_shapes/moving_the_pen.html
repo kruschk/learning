@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Moving the pen</title>
+        <style type="text/css">
+            canvas { border: 1px solid black; }
+        </style>
+    </head>
+    <body>
+        <canvas id="canvas" height="150" width="150">Canvas API support is required.</canvas>
+    </body>
+    <script type="application/javascript">
+        "use strict";
+
+        function draw() {
+            const canvas = document.getElementById("canvas");
+            if (canvas.getContext) {
+                let context = canvas.getContext("2d");
+                context.beginPath();
+                context.arc(75, 75, 50, 0, Math.PI*2, true);
+                context.moveTo(110, 75);
+                context.arc(75, 75, 35, 0, Math.PI, false);
+                context.moveTo(65, 65);
+                context.arc(60, 65, 5, 0, Math.PI*2, true);
+                context.moveTo(95, 65);
+                context.arc(90, 65, 5, 0, Math.PI*2, true);
+                context.stroke();
+            }
+        }
+
+        window.addEventListener("load", draw);
+    </script>
+</html>
